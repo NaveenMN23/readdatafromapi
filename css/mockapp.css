@@ -1,0 +1,130 @@
+:root{
+	font-size: 16px;
+}
+.appName{
+	font-size: 6rem;
+	text-align: center;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	color: #17a2b8;
+	font-family: sans-serif;
+}
+.appAlign{
+	max-width: 800px;
+	margin:auto;
+	margin-bottom: 2%;
+}
+.appAlignButton{
+	text-align: center;
+	margin-bottom: 2%;
+}
+.errorMessage{
+	color: red;
+	margin-bottom: 2%;
+	text-align: center;
+	visibility: hidden;	
+	font-family: sans-serif;
+	overflow: hidden;
+}
+.coverPhoto{
+	max-height: 300px;
+	background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.profilePhoto{
+	border: 1px solid #fff;
+	border-radius: 2px;
+	margin: 5rem 0 0 0;
+	min-width: 70px;
+}
+.profileDetails{
+	display: none;
+}
+.userName{
+	font-size: 3rem;
+	text-align: center;
+	padding-top: 5%;
+	font-family: sans-serif;
+}
+.card-body{
+	padding: 5%;
+	padding-left: 5%;
+	padding-right: 5%;
+	font-family: sans-serif;
+}
+.card-bodytext{
+	padding: 2%;
+	padding-left: 5%;
+	padding-right: 5%;
+	font-family: sans-serif;
+}
+.card-bodytexttop{
+	padding-top:5%;
+	padding-bottom: 2%;
+	padding-left: 5%;
+	padding-right: 5%;
+	font-family: sans-serif;
+}
+.quote{
+	font-family: sans-serif;
+	padding-top: 5%;
+}
+#card-body5{
+	border-bottom: 1px solid rgba(0,0,0,.125);
+	border-radius: .25rem;
+	font-family: sans-serif;
+}
+.img-size{
+	cursor: pointer;
+	padding: 20px 0px;
+}
+.story{
+	font-size: 1rem;
+	padding: 20px 0px;
+	font-weight: bold;
+}
+.createdtime{
+	font-size: 0.8rem;
+	padding: 20px 0px;
+}
+.div-border-bottom{
+	border-bottom: 1px solid rgba(0,0,0,.125);
+}
+.card-header, .btn-link{
+	font-size: 1.25rem !important;
+}
+.card-header{
+	color: #007bff !important;
+	font-size: 1.25rem !important;
+}
+#homePageHeader{
+	cursor: pointer;
+}
+.btn-link{
+	padding: 0;
+}
+.navbar-light{
+	background-color: #e3f2fd;
+}
+.navbar-brand{
+	color: #000;
+}
+.story{
+	color: #007bff !important;
+	cursor: pointer;
+}
+@media only screen and (max-width: 425px){
+	.appName{
+		font-size: 3rem;
+	}
+	.userName{
+		font-size: 1.5rem;
+	}
+}
+@media only screen and (min-width: 426px) and (max-width: 768px){
+	.userName{
+		font-size: 2rem;
+	}
+}
