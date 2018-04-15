@@ -36,7 +36,6 @@ let getUserDetails = () => {
 			url: 'https://graph.facebook.com/me?fields=name,quotes,cover,picture.type(large),birthday,email,hometown,gender,posts{created_time,type,full_picture,story,message,source}&access_token=' + getAccessToken,
 
 			success: (response) => {
-				console.log(response);
 				$("#userDetails").css("display","none");
 				$("#profileDetails").css("display","inline");
 				$("#coverPhoto").css("background-image", "url(" + response.cover.source + ")");
